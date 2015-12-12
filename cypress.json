@@ -1,0 +1,12 @@
+{
+  "commandTimeout": 20000,
+  "visitTimeout": 60000,
+  "env": {
+    "host": "http://localhost",
+    "webAppUrl": "http://dev.lancelotapp.com/app",
+    "apiURL": "https://dev.lancelotapp.com/api",
+    "webSiteUrl": "http://dev.lancelotapp.com",
+    "E2EKey": "938327535337d1049c6ca8580181a40e0ddd218daf9c631251b3b9a879ce7ec3"
+  },
+  "projectId": "b32bd854-93bd-4076-9762-d1686a843533"
+}
