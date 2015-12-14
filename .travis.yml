@@ -8,5 +8,5 @@ install:
   - npm install -g cypress
 
 script:
-  - http-server -p 6060
+  - http-server -p 6060 &
   - cypress ci
