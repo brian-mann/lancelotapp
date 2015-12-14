@@ -16,5 +16,5 @@ install:
 
 script:
   - http-server -p 6060 &
-  - xwd -root -silent -display :99 | xwdtopnm |pnmtojpeg > screen.jpg
+  - xwd -root -silent -display :99  > /Dev_Data/lancelotapp/screen.xwd
   - cypress ci
