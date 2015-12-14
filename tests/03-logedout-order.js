@@ -33,7 +33,7 @@ describe('WebApp Loged out order [02s]',function(){
 			.get('a[href="book-brand-ambassador.html"]')
 			.click()
 			.get('form[name="booking-form"]')
-			.find('input[placeholder="City"]')
+			// .find('input[placeholder="City"]')
 			// .type('miami')
 			// .wait('@autocomplete')
 			// .get('.city-autocomplete')
