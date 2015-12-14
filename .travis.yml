@@ -8,8 +8,6 @@ addons:
      - ./screen5.xwd
      - ./screen6.xwd
      - ./screen7.xwd
-     - ./screen8.xwd
-     - ./screen9.xwd
 
 language: node_js
 
@@ -42,7 +40,3 @@ script:
   - xwd -root -silent -display :99  > screen6.xwd
   - sleep 10
   - xwd -root -silent -display :99  > screen7.xwd
-  - sleep 10
-  - xwd -root -silent -display :99  > screen8.xwd
-  - sleep 10
-  - xwd -root -silent -display :99  > screen9.xwd
