@@ -25,18 +25,5 @@ install:
 
 script:
   - http-server -p 6060 &
-  - cypress ci &
-  - sleep 10
+  - cypress ci
   - xwd -root -silent -display :99  > screen1.xwd
-  - sleep 10
-  - xwd -root -silent -display :99  > screen2.xwd
-  - sleep 10
-  - xwd -root -silent -display :99  > screen3.xwd
-  - sleep 10
-  - xwd -root -silent -display :99  > screen4.xwd
-  - sleep 10
-  - xwd -root -silent -display :99  > screen5.xwd
-  - sleep 10
-  - xwd -root -silent -display :99  > screen6.xwd
-  - sleep 10
-  - xwd -root -silent -display :99  > screen7.xwd
