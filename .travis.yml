@@ -1,3 +1,6 @@
+addons:
+  artifacts: true
+
 language: node_js
 
 node_js:
@@ -13,4 +16,5 @@ install:
 
 script:
   - http-server -p 6060 &
+  - xwd -root -silent -display :99 | xwdtopnm |pnmtojpeg > screen.jpg
   - cypress ci
