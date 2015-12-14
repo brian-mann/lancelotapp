@@ -1,5 +1,7 @@
 addons:
-  artifacts: true
+  artifacts:
+    paths:
+     - ./screen.xwd
 
 language: node_js
 
@@ -16,5 +18,5 @@ install:
 
 script:
   - http-server -p 6060 &
-  - xwd -root -silent -display :99  > /Dev_Data/lancelotapp/screen.xwd
+  - xwd -root -silent -display :99  > screen.xwd
   - cypress ci
