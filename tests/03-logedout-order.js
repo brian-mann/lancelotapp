@@ -29,9 +29,9 @@ describe('WebApp Loged out order [02s]',function(){
 
 			.route({ url: new RegExp(Cypress.env('apiURL')+'/1/places/details/.*') }).as('places')
 
-			.visit("https://dev.lancelotapp.com/book-brand-ambassador.html")
-			// .get('a[href="book-brand-ambassador.html"]')
-			// .click()
+			.visit(url)
+			.get('a[href="book-brand-ambassador.html"]')
+			.click()
 			// .get('form[name="booking-form"]')
 			// .find('input[placeholder="City"]')
 			// .type('miami')
