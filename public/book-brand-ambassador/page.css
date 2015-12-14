@@ -1,0 +1,45 @@
+#page .top{background:#0fc8ee}
+#page .top h1 a{background-image:url(../../images/logo-white.png)}
+#page .top h2{margin-bottom:40px}
+#page .page{padding-top:70px;padding-bottom:70px}
+#page .page p{font-size:15px;line-height:28px;margin-bottom:20px}
+#page .page ol li,#page .page ul li{padding:10px 0}
+#page .page ol li p,#page .page ul li p{margin-bottom:0}
+#page .intro{border-bottom:solid 1px rgba(0,0,0,.08)}
+#page .intro p{text-align:center;padding:50px 200px;font-size:30px;font-weight:100;line-height:50px}
+#page .verify-identity{width:570px;margin:0 auto;padding:50px 0}
+#page .verify-identity label{font-size:14px;font-weight:400}
+#page .verify-identity label input{font-size:17px;font-weight:200;padding:8px;line-height:20px;border-radius:3px;border:1px solid rgba(0,0,0,.1);margin-top:5px}
+#page .verify-identity fieldset{overflow:hidden;margin-bottom:20px}
+#page .verify-identity fieldset:nth-child(1) label{width:170px;float:left}
+#page .verify-identity fieldset:nth-child(1) label:nth-child(2){margin:0 30px}
+#page .verify-identity fieldset:nth-child(1) label input{width:170px}
+#page .verify-identity fieldset:nth-child(2) label input{width:170px;text-align:center;float:left}
+#page .verify-identity fieldset:nth-child(2) label input:nth-child(3){margin:5px 30px 0}
+#page .verify-identity fieldset:nth-child(3) label{float:left}
+#page .verify-identity fieldset:nth-child(3) label:nth-child(1){width:450px;margin-right:30px}
+#page .verify-identity fieldset:nth-child(3) label:nth-child(1) input{width:450px}
+#page .verify-identity fieldset:nth-child(3) label:nth-child(2),#page .verify-identity fieldset:nth-child(3) label:nth-child(2) input{width:90px}
+#page .verify-identity fieldset:nth-child(3) label:nth-child(3),#page .verify-identity fieldset:nth-child(3) label:nth-child(4),#page .verify-identity fieldset:nth-child(3) label:nth-child(5){width:170px;margin-top:20px}
+#page .verify-identity fieldset:nth-child(3) label:nth-child(3) input,#page .verify-identity fieldset:nth-child(3) label:nth-child(4) input,#page .verify-identity fieldset:nth-child(3) label:nth-child(5) input{width:170px}
+#page .verify-identity fieldset:nth-child(3) label:nth-child(4){margin:20px 30px 0}
+#page .verify-identity fieldset:nth-child(4) label{width:660px}
+#page .verify-identity fieldset:nth-child(4) label input{width:660px;text-align:center;border:none;background:rgba(0,0,0,.05);padding:15px}
+#page .verify-identity fieldset:nth-child(5) label,#page .verify-identity fieldset:nth-child(7) label{width:270px;float:left}
+#page .verify-identity fieldset:nth-child(5) label input,#page .verify-identity fieldset:nth-child(7) label input{width:270px}
+#page .verify-identity fieldset:nth-child(5) label:nth-child(1),#page .verify-identity fieldset:nth-child(7) label:nth-child(1){margin-right:30px}
+#page .verify-identity fieldset:nth-child(6) label,#page .verify-identity fieldset:nth-child(6) label input{width:570px}
+#page .verify-identity p{overflow:hidden;margin-bottom:30px}
+#page .verify-identity p a{display:block;width:285px;float:left;text-align:center;font-size:17px;border:1px solid #0fc8ee;padding:7px 0;margin-top:8px;color:#0fc8ee}
+#page .verify-identity p a:nth-child(2){border-radius:5px 0 0 5px;border-right:0}
+#page .verify-identity p a:nth-child(3){border-radius:0 5px 5px 0}
+#page .verify-identity p a.selected{background:#0fc8ee;color:#fff}
+#page .verify-identity-upload fieldset{width:570px;margin:0 auto;padding:40px 0;border-bottom:solid 1px rgba(0,0,0,.08)}
+#page .verify-identity-upload fieldset label h3{font-size:18px;margin:0}
+#page .verify-identity-upload fieldset label p{font-size:16px;font-weight:200;margin:7px 0 15px}
+#page .verify-identity-upload fieldset label input{width:570px;border-radius:5px;padding:16px;background:rgba(0,0,0,.05);font-weight:200;font-size:17px;line-height:13px}
+#page .verify-identity-upload fieldset:last-child{border-bottom:none}
+#page .submit-info{border-top:solid 1px rgba(0,0,0,.08);padding:50px 0}
+#page .submit-info button{width:350px;display:block;float:none;margin:0 auto;font-size:18px;color:#fff;border-radius:3px;border:none;padding:10px 0;background:#26C646}
+@media (min-width:768px){#page .top h2{font-size:60px;font-weight:100;margin-top:100px;margin-bottom:100px}
+}

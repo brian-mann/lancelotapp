@@ -1,0 +1,21 @@
+#howitworks .top{background:url(../../images/howitworks/howitworks.jpg) 50% 20% no-repeat;background-size:cover}
+#howitworks .top h2{margin-bottom:40px}
+#howitworks .howItWorks{margin-top:20px}
+#howitworks .howItWorks h3{display:none}
+#howitworks .stuff{padding-top:70px;padding-bottom:70px;text-align:center}
+#howitworks .stuff h3{font-size:30px;line-height:40px;font-weight:200}
+#howitworks .stuff p{font-size:15px;font-weight:200;line-height:26px;margin-top:20px}
+#howitworks .one,#howitworks .three{background:#0fc8ee}
+#howitworks .one h3,#howitworks .one p,#howitworks .three h3,#howitworks .three p{color:#fff}
+@media (min-width:768px){#howitworks .alt,#howitworks .stuff,#howitworks .three{background-repeat:no-repeat}
+#howitworks .top h2{font-size:60px;font-weight:100;margin-top:100px;margin-bottom:100px}
+#howitworks .stuff{text-align:left;background-color:#0fc8ee}
+#howitworks .stuff .container{padding-top:80px;padding-bottom:80px}
+#howitworks .stuff .container h3{font-size:40px;font-weight:400;color:#fff}
+#howitworks .stuff .container p{font-size:18px;line-height:30px;font-weight:200;margin:20px 0 0;color:rgba(250,250,250,.7)}
+#howitworks .one{background-image:url(../../images/howitworks/staffrs8.png);background-size:250px;background-position:95% -30%}
+#howitworks .alt{background-image:url(../../images/howitworks/staffrs7.png);background-size:270px;background-position:15% 100%;background-color:#fff}
+#howitworks .alt .container h3{color:rgba(0,0,0,.8)}
+#howitworks .alt .container p{color:rgba(0,0,0,.5)}
+#howitworks .three{background-image:url(../../images/howitworks/staffrs9.png);background-size:280px;background-position:95% -30%}
+}

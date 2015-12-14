@@ -1,0 +1,67 @@
+#becomeastaffr .top{background:#0fc8ee;padding-bottom:50px}
+#becomeastaffr .top h1 a{background-image:url(../../images/logo-white.png)}
+#becomeastaffr .top header .phoneNumber{color:#fff;font-size:16px;font-weight:200;text-align:right;padding:24px 0}
+#becomeastaffr .top header .phoneNumber em{font-style:normal;font-size:16px;padding-right:8px;color:rgba(250,250,250,.6);display:none}
+#becomeastaffr .top h2{font-size:34px;line-height:40px;font-weight:100;margin-bottom:30px}
+#becomeastaffr .top h2 em{font-style:normal;font-weight:400}
+#becomeastaffr .top a.apply{background:#34bc4b;display:block;width:250px;padding:10px 0;font-size:21px;color:#fff;text-align:center;border-radius:5px;margin:0 auto}
+#becomeastaffr .firstSlide{padding-bottom:40px;padding-top:20px}
+#becomeastaffr .firstSlide h2{font-size:30px;line-height:44px;font-weight:200;padding-right:50px;padding-left:20px;margin-bottom:40px}
+#becomeastaffr .firstSlide .step{overflow:hidden;margin-bottom:30px;padding-left:90px}
+#becomeastaffr .firstSlide .step .no{width:65px;border:1px solid #0fc8ee;border-radius:100%;font-size:30px;font-weight:100;color:#0fc8ee;text-align:center;left:20px;padding:10px 0;float:left;z-index:2;position:absolute;background:#fff}
+#becomeastaffr .firstSlide .step .text h3{margin:0;font-size:26px;font-weight:200;color:#0fc8ee}
+#becomeastaffr .firstSlide .step .text p{font-size:14px;margin-top:10px;line-height:23px;color:rgba(0,0,0,.5)}
+#becomeastaffr .firstSlide .step:nth-child(3)::after{content:'';width:1px;height:300px;display:block;position:absolute;background:#0fc8ee;left:52px;top:180px;z-index:1}
+#becomeastaffr .firstSlide .logos{margin-top:50px;min-height:470px;text-align:center;font-size:13px;line-height:20px;color:rgba(0,0,0,.3);background:url(../../images/becomeastaffr/brands.png) center bottom no-repeat;background-size:189px 392px}
+#becomeastaffr .secondSlide{background:#0fc8ee;padding-top:100px;padding-bottom:30px}
+#becomeastaffr .secondSlide .row div{padding-left:90px;padding-right:0;background-position:0 0;background-size:65px 65px;background-repeat:no-repeat;margin-bottom:60px}
+#becomeastaffr .secondSlide .row div h3{font-size:26px;font-weight:200;color:#fff;margin:0}
+#becomeastaffr .secondSlide .row div p{font-size:14px;font-weight:200;line-height:23px;margin-top:10px;color:rgba(250,250,250,.9)}
+#becomeastaffr .secondSlide .row:nth-child(1) div:nth-child(1){padding-right:30px;background-image:url(../../images/becomeastaffr/requirements.png)}
+#becomeastaffr .secondSlide .row:nth-child(1) div:nth-child(2){background-image:url(../../images/becomeastaffr/compensation.png)}
+#becomeastaffr .secondSlide .row:nth-child(2) div:nth-child(1){padding-right:30px;background-image:url(../../images/becomeastaffr/hours.png)}
+#becomeastaffr .secondSlide .row:nth-child(2) div:nth-child(2){background-image:url(../../images/becomeastaffr/apply.png)}
+#becomeastaffr .process{padding-top:40px;padding-bottom:40px}
+#becomeastaffr .process h2{font-size:30px;font-weight:200;padding-left:20px;margin:0 0 40px}
+#becomeastaffr .process ul{list-style:none;margin:0;padding:0 0 0 20px}
+#becomeastaffr .process ul li{font-size:20px;color:#0fc8ee;font-weight:200;margin-bottom:30px;padding-left:65px}
+#becomeastaffr .process ul li em{z-index:2;width:50px;font-size:26px;top:0;font-style:normal;text-align:center;padding:7px 0;color:#fff;background:#0fc8ee;display:block;margin-left:-65px;margin-bottom:-40px;border-radius:100%}
+#becomeastaffr .bottomCta{padding:100px 0;text-align:center;background:#0fc8ee;background-size:cover}
+#becomeastaffr .bottomCta h2{color:#fff;font-size:40px;padding:0 65px;font-weight:200}
+#becomeastaffr .bottomCta p{font-size:14px;color:#fff;font-weight:100;margin:15px 0}
+#becomeastaffr .bottomCta a{width:280px;background:#34bc4b;font-size:20px;color:#fff;border-radius:6px;margin:30px auto 0;display:block;padding:14px 0}
+#becomeastaffr footer{padding-top:40px}
+#becomeastaffr footer h2{margin-bottom:50px}
+@media (min-width:768px){#becomeastaffr #applyModal{display:none;width:100%;height:100%;position:fixed;top:0;left:0;background:rgba(163,170,172,.8)}
+#becomeastaffr #applyModal .modalContent{position:relative;width:600px;height:300px;background:#fff;border-radius:12px;margin:100px auto 0}
+#becomeastaffr #applyModal .modalContent p{font-size:30px;text-align:center;padding:50px 50px 20px;font-weight:200}
+#becomeastaffr #applyModal .modalContent .links{width:280px;margin:0 auto}
+#becomeastaffr #applyModal .modalContent .links a{width:130px;height:40px;background-size:130px 40px;display:block;font-size:0}
+#becomeastaffr #applyModal .modalContent .links a.gp{background-image:url(../../images/becomeastaffr/play-store.png);float:left}
+#becomeastaffr #applyModal .modalContent .links a.as{background-image:url(../../images/becomeastaffr/app-store.png);float:right}
+#becomeastaffr #applyModal a.close{width:30px;height:30px;padding:0;background-image:url(../../images/becomeastaffr/modal-close.svg);background-size:30px 30px;display:block;opacity:1;font-size:0;position:absolute;top:-44px;right:0}
+#becomeastaffr .firstPhoto{display:none}
+#becomeastaffr .secondPhoto{height:500px;background:url(../../images/becomeastaffr/app-mockup.jpg) fixed;background-size:cover}
+#becomeastaffr .top header .phoneNumber{font-size:18px}
+#becomeastaffr .top header .phoneNumber em{display:inline}
+#becomeastaffr .top h2{text-align:left;font-size:50px;line-height:65px;font-weight:100;margin-top:100px;margin-bottom:40px}
+#becomeastaffr .top .phones{margin-top:70px;margin-bottom:40px;min-height:400px;background-image:url(../../images/becomeastaffr/apps.png);background-size:277px 400px;background-repeat:no-repeat;background-position:top right}
+#becomeastaffr .top a.apply{margin:0}
+#becomeastaffr .firstSlide{margin-top:80px;padding-bottom:80px}
+#becomeastaffr .firstSlide h2{font-size:48px;line-height:58px;margin-bottom:70px;margin-top:0}
+#becomeastaffr .firstSlide .step:nth-child(3)::after{top:200px}
+#becomeastaffr .process{padding:80px 0}
+#becomeastaffr .process h2{font-size:48px;text-align:center}
+#becomeastaffr .process ul li{padding-top:60px}
+#becomeastaffr .process ul li em{position:absolute;left:0;right:0;margin:0 auto}
+#becomeastaffr .process ul li:nth-child(4)::after{content:' ';top:24px;left:-420px;position:absolute;width:530px;background:#0fc8ee;height:1px;z-index:1}
+#becomeastaffr .bottomCta{padding:150px 0}
+#becomeastaffr .bottomCta h2{font-size:50px}
+#becomeastaffr .bottomCta p{font-size:23px}
+}
+@media (min-width:992px){#becomeastaffr .secondSlide .row:nth-child(1) div:nth-child(2),#becomeastaffr .secondSlide .row:nth-child(2) div:nth-child(2){margin-left:30px}
+#becomeastaffr .process ul li:nth-child(4)::after{content:' ';top:24px;left:-540px;position:absolute;width:650px;background:#0fc8ee;height:1px;z-index:1}
+}
+@media (min-width:1200px){#becomeastaffr .top h2{font-size:58px;line-height:75px}
+#becomeastaffr .process ul li:nth-child(4)::after{content:' ';top:24px;left:-680px;position:absolute;width:800px;background:#0fc8ee;height:1px;z-index:1}
+}

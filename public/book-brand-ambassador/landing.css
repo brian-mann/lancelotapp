@@ -1,0 +1,100 @@
+#landing #city-error-message,#landing #error-message{display:none;color:#FF6474;text-align:center;border:0;outline:0;font-weight:1.2em}
+#landing #city-error-message.active,#landing #error-message.active{display:block}
+#landing .datepicker table tr td.day.active{background-color:#0fc8ee}
+#landing .datepicker table tr td.day.today{background-color:inherit;font-weight:700}
+#landing a.add-quantity,#landing a.add-quantity:hover,#landing a.add-quantity:visited,#landing a.rem-quantity,#landing a.rem-quantity:hover,#landing a.rem-quantity:visited{text-decoration:none}
+#landing .top header .phoneNumber{color:#fff;font-size:16px;font-weight:200;text-align:right;padding:24px 0}
+#landing .top header .phoneNumber em{font-style:normal;font-size:16px;padding-right:8px;color:rgba(250,250,250,.6);display:none}
+#landing .top header h1 a{width:120px;height:27px;background-size:120px}
+#landing .top .priceBadge{width:60px;padding:10px 0;height:60px;background-size:60px 60px;background-image:url(../../images/landing/badge.png);color:#fff;position:absolute;font-size:22px;text-align:center;font-weight:200;top:-30px;right:-30px}
+#landing .top .priceBadge em{display:block;font-style:normal;font-size:9px;margin-top:-4px;opacity:.6}
+#landing .top h2{font-size:30px;line-height:45px;font-weight:100}
+#landing .top h2 em{font-style:normal;font-weight:400}
+#landing .top .topCta{padding:0}
+#landing .top .topCta .time-spinner{text-align:center}
+#landing .top .topCta .time-spinner input.normal-field{width:80%;margin:0 auto}
+#landing .top .topCta .time-spinner i{color:#0fc8ee}
+#landing .top .topCta h3{padding-top:25px}
+#landing .top .topCta form{margin-top:-4px;padding-top:5px;border-top:solid 1px rgba(0,0,0,.1)}
+#landing .top .topCta form .form-button-container{border-top:1px solid rgba(0,0,0,.05);padding:2rem}
+#landing .top .topCta form .form-fields-container{margin-bottom:2rem}
+#landing .top .topCta form label{width:100%;padding:15px 20px 0}
+#landing .top .topCta form label .double-field{width:45%}
+#landing .top .topCta form label .double-field.left-field{float:left}
+#landing .top .topCta form label .double-field.right-field{float:right}
+#landing .top .topCta form label a.fa:active,#landing .top .topCta form label a.fa:hover,#landing .top .topCta form label a.fa:link,#landing .top .topCta form label a.fa:visited{border:none;background-color:inherit;margin:0;text-decoration:none;font-size:1em;color:#0fc8ee;border-radius:0;outline:0}
+#landing .top .topCta form label .value-container{font-weight:400}
+#landing .top .topCta form label .spinner-button{text-align:center;vertical-align:middle;background:rgba(0,0,0,.1);border-radius:6px;height:4rem;line-height:4rem}
+#landing .top .topCta form label .spinner-button span{height:100%;display:inline-block}
+#landing .top .topCta form label .spinner-button a{height:100%;top:0;position:relative;display:inline-block;width:10%;text-align:center;padding:0;margin-top:0;border:0;border-radius:0;text-decoration:none;line-height:inherit}
+#landing .top .topCta form label .spinner-button a:visited{text-decoration:none}
+#landing .top .topCta form label .spinner-button a:hover{text-decoration:none;color:#FFF;background-color:#0fc8ee}
+#landing .top .topCta form label .spinner-button a.left-button{float:left;border-right:1px solid #FFF;border-radius:6px 0 0 6px}
+#landing .top .topCta form label .spinner-button a.right-button{float:right;border-left:1px solid #FFF;border-radius:0 6px 6px 0}
+#landing .top .topCta form label p{font-size:16px;font-weight:200;color:rgba(0,0,0,.6)}
+#landing .top .topCta form label input{border:none;font-size:17px;width:100%;background:rgba(0,0,0,.1);font-weight:200;text-align:center;padding:10px 0 9px;border-radius:6px;display:block}
+#landing .top .topCta form label input.error{border:1px solid red}
+#landing .top .topCta form input[type=submit]{background:#0fc8ee;border:none;border-radius:6px;font-size:20px;width:100%;font-weight:200;color:#fff;padding:8px 0}
+#landing .trustedBy{border-bottom:solid 1px rgba(0,0,0,.1)}
+#landing .services{background:#0fc8ee;padding-top:10px;padding-bottom:30px}
+#landing .services .service-list ul li{text-transform:capitalize}
+#landing .services h2{text-align:center;font-size:30px;font-weight:200;color:#fff;line-height:30px;margin-bottom:30px}
+#landing .services ul{border-top:solid 1px rgba(250,250,250,.5);list-style:none;padding:20px 0 0;margin:0;font-size:22px;line-height:35px;color:#fff;font-weight:200}
+#landing .services ul li{margin-right:4%;border-bottom:solid 1px rgba(250,250,250,.2);padding:10px 0;text-align:center}
+#landing .services ul li:nth-child(4n+4){margin-right:0}
+#landing .services ul li:nth-child(12){border-bottom:0}
+#landing .whyUs{padding-top:50px}
+#landing .whyUs h2{text-align:center;font-size:30px;padding:0 40px;line-height:45px;font-weight:200;margin-bottom:40px;margin-top:0}
+#landing .whyUs div{background-size:60px 60px;background-repeat:no-repeat;background-position:center top;text-align:center}
+#landing .whyUs div h3{margin:0;font-size:28px;font-weight:200}
+#landing .whyUs div p{margin-top:10px;font-size:16px;line-height:26px;padding:0 30px;color:rgba(0,0,0,.5)}
+#landing .whyUs .row div{margin-bottom:50px;padding-top:75px}
+#landing .whyUs .row div:nth-child(1){background-image:url(../../images/landing/track-record.png)}
+#landing .whyUs .row div:nth-child(2){background-image:url(../../images/landing/easier-faster.png)}
+#landing .whyUs .row div:nth-child(3){background-image:url(../../images/landing/choose.png)}
+#landing .whyUs .row div:nth-child(4){background-image:url(../../images/landing/transparent-pricing.png)}
+#landing .bottomCta{background:#0fc8ee}
+#landing .bottomCta p{color:#fff}
+#landing .bottomCta a{background:#34bc4b}
+#landing footer{padding-top:40px}
+#landing footer h2{margin-bottom:50px}
+@media (min-width:768px){#landing .top .priceBadge{width:76px;padding:12px 0;height:76px;background-size:76px 76px;font-size:18px;font-size:28px;left:-38px;top:16px}
+#landing .top .priceBadge em{font-size:11px;margin-top:-7px;opacity:.6}
+#landing .top header .phoneNumber{font-size:18px}
+#landing .top header .phoneNumber em{display:inline}
+#landing .top h2{text-align:left;font-size:40px;font-weight:100;margin-top:120px}
+#landing .top .topCta{margin-top:70px;margin-bottom:70px}
+#landing .top .topCta label input{width:255px}
+#landing .top .topCta h3{font-size:25px;padding:18px 20px 0;line-height:135%}
+#landing .services{padding-top:40px;padding-bottom:70px}
+#landing .services h2{font-size:45px;margin-bottom:60px}
+#landing .services ul{overflow:hidden}
+#landing .services ul li{width:30%;border-bottom:solid 1px rgba(250,250,250,.2);padding:20px 0;float:left;margin:0;text-align:center}
+#landing .services ul li:last-child{border-bottom:0}
+#landing .services ul li:nth-child(3n+2){margin:0 3%}
+#landing .whyUs{padding-top:70px;padding-bottom:40px}
+#landing .whyUs h2{text-align:center;font-size:45px;font-weight:200;margin-bottom:80px;margin-top:0}
+#landing .whyUs div{background-size:65px 65px;background-position:15px 0;text-align:left}
+#landing .whyUs div p{margin-top:10px;font-size:16px;line-height:26px;padding:0;color:rgba(0,0,0,.5)}
+#landing .whyUs .row div{margin-bottom:50px;padding-top:0;padding-left:105px}
+#landing .whyUs .row div:nth-child(1){background-image:url(../../images/landing/track-record.png)}
+#landing .whyUs .row div:nth-child(2){background-image:url(../../images/landing/easier-faster.png)}
+#landing .whyUs .row div:nth-child(3){background-image:url(../../images/landing/choose.png)}
+#landing .whyUs .row div:nth-child(4){background-image:url(../../images/landing/transparent-pricing.png)}
+}
+.fitness-model .top{background:url(../../images/slideshow/fitness-model.jpg);background-size:cover}
+.product-specialist .top{background:url(../../images/slideshow/product-specialist.jpg);background-size:cover}
+.booth-model .top,.model .top{background:url(../../images/slideshow/booth-model.jpg);background-size:cover}
+.field-manager .top{background:url(../../images/slideshow/field-manager.jpg);background-size:cover}
+.promotional-model .top{background:url(../../images/slideshow/promo-model.jpg);background-size:cover}
+.brand-ambassador .top{background:url(../../images/slideshow/brand-ambassador.jpg);background-size:cover}
+.bartender .top{background:url(../../images/slideshow/bartender.jpg);background-size:cover}
+.costumed-character .top{background:url(../../images/slideshow/costumed-character.jpg);background-size:cover}
+.greeter .top{background:url(../../images/slideshow/greeter.jpg);background-size:cover}
+.wait-staff .top{background:url(../../images/slideshow/wait-staff.jpg);background-size:cover}
+.check-in-staff .top{background:url(../../images/slideshow/check-in-staff.jpg);background-size:cover}
+.atmosphere-model .top{background:url(../../images/slideshow/atmosphere-model.jpg);background-size:cover}
+.atmosphere-model .services,.check-in-staff .services,.greeter .services,.wait-staff .services{display:none}
+.atmosphere-model .whyUs,.check-in-staff .whyUs,.greeter .whyUs,.wait-staff .whyUs{border-top:solid 1px rgba(0,0,0,.05)}
+@media (min-width:992px){#landing .top h2{font-size:50px;line-height:65px}
+}

@@ -1,0 +1,29 @@
+#company .intro,#company .story{border-bottom:solid 1px rgba(0,0,0,.08)}
+#company .top{background-color:#0fc8ee}
+#company .top h1 a{background-image:url(../../images/logo-white.png)}
+#company .top h2{margin-bottom:40px}
+#company .intro p{text-align:center;padding:50px 0;font-size:20px;font-weight:200;line-height:30px}
+#company .story{padding:50px 0}
+#company .story h3{font-size:30px;font-weight:200;margin-bottom:20px;color:#0fc8ee}
+#company .story p{font-size:16px;line-height:28px;color:rgba(0,0,0,.8);font-weight:200}
+#company .team{padding-top:50px;padding-bottom:0}
+#company .team h3{font-size:30px;font-weight:200;margin-bottom:30px;color:#0fc8ee}
+#company .members{padding-bottom:50px}
+#company .members div div{padding:0;margin-bottom:40px}
+#company .members h4{font-size:20px;font-weight:200}
+#company .members span{margin-bottom:10px;display:block}
+#company .members p{font-size:16px;line-height:28px;font-weight:200;color:rgba(0,0,0,.6)}
+@media (min-width:768px){#company .top{margin-bottom:40px}
+#company .top h2{font-size:60px;font-weight:100;margin-top:100px;margin-bottom:100px}
+#company .intro p{font-size:25px;padding:50px 100px 60px;line-height:42px}
+#company .story{border-bottom:none;padding:100px 0}
+#company .story h3{font-size:60px;margin-top:0;font-weight:100}
+#company .story p{font-size:18px;line-height:32px}
+#company .photo{height:500px;background:url(../../images/company/company.jpg) center center;background-size:cover}
+#company .team{background-image:url(../../images/company/casey-vinny.jpg);background-repeat:no-repeat;background-size:588px;background-position:center bottom;padding-bottom:350px}
+#company .team h3{font-size:60px;font-weight:100;text-align:center}
+#company .members{border-top:solid 1px rgba(0,0,0,.08);padding:70px 0}
+#company .members h4{font-size:34px;font-weight:200}
+#company .members span{opacity:.6;font-weight:400;margin:12px 0 20px;display:block}
+#company .members p{font-size:18px;line-height:32px;font-weight:200}
+}

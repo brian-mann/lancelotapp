@@ -1,0 +1,17 @@
+#contact .top{background:#0fc8ee}
+#contact .top h1 a{background-image:url(../../images/logo-white.png)}
+#contact .top h2{margin-bottom:40px}
+#contact .things{padding:40px 0}
+#contact .form input,#contact .form textarea{background:rgba(0,0,0,.1);width:100%;padding:11px;margin:10px 0 20px;font-size:17px;font-weight:200}
+#contact .form label{display:block;font-size:17px;color:rgba(0,0,0,.6);font-weight:200}
+#contact .form input{border-radius:6px;border:0}
+#contact .form textarea{display:block;border:none;border-radius:6px;height:180px}
+#contact .form input[type=submit]{margin-bottom:0;background:#0fc8ee;color:#fff;width:300px}
+#contact .info{margin-top:50px;text-align:center}
+#contact .info h3{font-size:17px;color:rgba(0,0,0,.4);font-weight:200}
+#contact .info a,#contact .info p{font-size:20px;color:rgba(0,0,0,.8);font-weight:200}
+#contact iframe{display:block}
+@media (min-width:768px){#contact .things{padding:80px 0}
+#contact .info{margin-top:0}
+#contact .top h2{font-size:60px;font-weight:100;margin-top:100px;margin-bottom:100px}
+}
