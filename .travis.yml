@@ -11,6 +11,7 @@ node_js:
 before_install:
   - sudo apt-get update -qq
   - sudo apt-get install -qq netpbm
+  - sudo apt-get install x11-apps
 
 install:
   - npm install
