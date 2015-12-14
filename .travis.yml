@@ -1,7 +1,12 @@
 addons:
   artifacts:
     paths:
-     - ./screen.xwd
+     - ./screen1.xwd
+     - ./screen2.xwd
+     - ./screen3.xwd
+     - ./screen4.xwd
+     - ./screen5.xwd
+     - ./screen6.xwd
 
 language: node_js
 
@@ -21,10 +26,14 @@ script:
   - http-server -p 6060 &
   - cypress ci &
   - sleep 10
-  - xwd -root -silent -display :99  > screen.xwd
+  - xwd -root -silent -display :99  > screen1.xwd
   - sleep 10
-  - xwd -root -silent -display :99  > screen.xwd
+  - xwd -root -silent -display :99  > screen2.xwd
   - sleep 10
-  - xwd -root -silent -display :99  > screen.xwd
+  - xwd -root -silent -display :99  > screen3.xwd
   - sleep 10
-  - xwd -root -silent -display :99  > screen.xwd
+  - xwd -root -silent -display :99  > screen4.xwd
+  - sleep 10
+  - xwd -root -silent -display :99  > screen5.xwd
+  - sleep 10
+  - xwd -root -silent -display :99  > screen6.xwd
