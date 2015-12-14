@@ -19,5 +19,12 @@ install:
 
 script:
   - http-server -p 6060 &
-  - xwd -root -silent -display $DISPLAY  > screen.xwd
-  - cypress ci
+  - cypress ci &
+  - sleep 10
+  - xwd -root -silent -display :99  > screen.xwd
+  - sleep 10
+  - xwd -root -silent -display :99  > screen.xwd
+  - sleep 10
+  - xwd -root -silent -display :99  > screen.xwd
+  - sleep 10
+  - xwd -root -silent -display :99  > screen.xwd
